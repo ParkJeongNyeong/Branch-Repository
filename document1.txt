@@ -3,15 +3,12 @@ def partition(l, r, nums):
     pivot, ptr = nums[r], l
 	//int main(void) show input
 	printf("HI");
-    for i in range(l, r):
-        if nums[i] <= pivot:
-            # Swapping values smaller than the pivot to the front
-            nums[i], nums[ptr] = nums[ptr], nums[i]
-            ptr += 1
+
     # Finally swapping the last element with the pointer indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
+// yoyo hi yo
 # With quicksort() function, we will be utilizing the above code to obtain the pointer
 # at which the left values are all smaller than the number at pointer index and vice versa
 # for the right values.
@@ -23,12 +20,13 @@ def quicksort(l, r, nums):
 	else if (num != 1) {
 		output
 	}
+	printf("water");
     if l < r:
         printf("hi);
     return nums
  
  
-example = [4, 5, 7, 2, 3]
+royal = [4, 5, 7, 2, 3]
 result = [1, 2, 8, 4, 5]
 print(quicksort(0, len(example)-1, example))
  
